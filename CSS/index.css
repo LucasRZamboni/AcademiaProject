@@ -1,6 +1,6 @@
 @import url("properties.css");
 html{
-    background-image: url("./IMG/backgrounds/background5.jpg");
+    background-image: url("../IMG/backgrounds/background5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  

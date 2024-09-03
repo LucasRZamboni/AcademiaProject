@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/media.css">
+    <title>Academia Project - Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms">
+        <form action="" id="formCadastro">
+          <h2>Novo(a) por aqui? Cadastre-se!</h2>
+          <p class="phrase">
+            Monte seu treino,
+            <span class="strongPhrase">foco no progresso!</span>
+          </p>
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <div class="form-control-inside">
+              <input
+                type="email"
+                id="emailCadastro"
+                placeholder="Digite seu email..."
+                required
+              />
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="senha">Senha:</label>
+            <div class="form-control-inside">
+              <input
+                type="password"
+                id="senhaCadastro"
+                placeholder="Digite sua senha..."
+                required
+              />
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="form-control">
+            <button id="cadWithEmail">Cadastrar</button>
+          </div>
+          <div class="form-control-footer">
+            <button id="withGoogle">
+              <img src="IMG/others/google.png" alt="cadastrar com google" />
+              Google
+            </button>
+            <button id="withMicrosoft">
+              <img
+                src="IMG/others/microsoft.png"
+                alt="cadastrar com microsoft"
+              />
+              Microsoft
+            </button>
+          </div>
+        </form>
+
+        <!-- <div class="divisor"></div> -->
+
+        <form action="" id="formLogin">
+          <h2 class="title">Bem vindo(a) de volta!</h2>
+          <p class="phrase">
+            Vamos de <span class="strongPhrase">No pain, No gain!</span>
+          </p>
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <div class="form-control-inside">
+              <input
+                type="email"
+                id="emailLogin"
+                placeholder="Digite seu email..."
+                required
+              />
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="senha">Senha:</label>
+            <div class="form-control-inside">
+              <input
+                type="password"
+                id="senhaLogin"
+                placeholder="Digite sua senha..."
+                required
+              />
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="form-control">
+            <button id="logWithEmail">Login</button>
+          </div>
+          <div class="form-control-footer">
+            <button id="withGoogle">
+              <img src="IMG/others/google.png" alt="login com google" />
+              Google
+            </button>
+            <button id="withMicrosoft">
+              <img src="IMG/others/microsoft.png" alt="login com microsoft" />
+              Microsoft
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

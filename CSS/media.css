@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+  .forms {
+    height: 600px;
+  }
+  #formCadastro,
+      #formLogin {
+        height: 50%;
+      }
+}
+@media screen and (min-width: 600px) {
+    .forms {
+        display: flex;
+        width: 95%;
+        height: 600px;
+      }
+      #formCadastro,
+      #formLogin {
+        width: 50%;
+      }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+    .forms {
+        display: flex;
+        width: 90%;
+        height: 600px;
+      }
+      #formCadastro,
+      #formLogin {
+        width: 50%;
+      }
+      #formCadastro{
+        background: linear-gradient(45%, #dfe3ee9d, #cfd8e333);
+    }
+    #formLogin{
+        background: linear-gradient(45%, #1c1c1cbb, #33333352);
+    }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+}

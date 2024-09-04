@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/index.css" />
-    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/media.css" />
     <title>Academia Project - Login</title>
   </head>
   <body>
     <div class="container">
       <div class="forms">
         <form action="" id="formCadastro">
-          <h2>Novo(a) por aqui? Cadastre-se!</h2>
-          <p class="phrase">
-            Monte seu treino,
-            <span class="strongPhrase">foco no progresso!</span>
-          </p>
+          <div class="titlePhrase">
+            <h2>Novo(a) por aqui? Cadastre-se!</h2>
+            <p class="phrase">
+              Monte seu treino,
+              <span class="strongPhrase">foco no progresso!</span>
+            </p>
+          </div>
           <div class="form-control">
             <label for="email">Email:</label>
             <div class="form-control-inside">
@@ -37,13 +39,13 @@
                 placeholder="Digite sua senha..."
                 required
               />
-              <ion-icon name="eye-outline"></ion-icon>
+              <ion-icon name="eye-outline" id="eyeSenhaCadastro" class="eyeSenha"></ion-icon>
             </div>
           </div>
           <div class="form-control">
             <button id="cadWithEmail">Cadastrar</button>
           </div>
-          <div class="form-control-footer">
+          <div class="form-control footer">
             <button id="withGoogle">
               <img src="IMG/others/google.png" alt="cadastrar com google" />
               Google
@@ -61,10 +63,12 @@
         <!-- <div class="divisor"></div> -->
 
         <form action="" id="formLogin">
+          <div class="titlePhrase">
           <h2 class="title">Bem vindo(a) de volta!</h2>
           <p class="phrase">
             Vamos de <span class="strongPhrase">No pain, No gain!</span>
           </p>
+        </div>
           <div class="form-control">
             <label for="email">Email:</label>
             <div class="form-control-inside">
@@ -86,13 +90,13 @@
                 placeholder="Digite sua senha..."
                 required
               />
-              <ion-icon name="eye-outline"></ion-icon>
+              <ion-icon name="eye-outline" id="eyeSenhaLogin" class="eyeSenha"></ion-icon>
             </div>
           </div>
           <div class="form-control">
             <button id="logWithEmail">Login</button>
           </div>
-          <div class="form-control-footer">
+          <div class="form-control footer">
             <button id="withGoogle">
               <img src="IMG/others/google.png" alt="login com google" />
               Google
@@ -113,5 +117,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="JS/eye.js"></script>
   </body>
 </html>

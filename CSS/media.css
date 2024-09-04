@@ -1,41 +1,65 @@
 @media screen and (max-width: 600px) {
   .forms {
-    height: 600px;
+    height: 650px;
+  }
+  .forms .titlePhrase h2{
+    font-size: 1.2rem;
+  }
+  .forms .titlePhrase {
+    top: 20px;
   }
   #formCadastro,
-      #formLogin {
-        height: 50%;
-      }
+  #formLogin {
+    height: 50%;
+  }
+  .form-control:nth-child(4) {
+    padding: 10px 0;
+  }
 }
 @media screen and (min-width: 600px) {
-    .forms {
-        display: flex;
-        width: 95%;
-        height: 600px;
-      }
-      #formCadastro,
-      #formLogin {
-        width: 50%;
-      }
+  .forms {
+    display: flex;
+    width: 95%;
+    height: 500px;
+  }
+  #formCadastro,
+  #formLogin {
+    width: 50%;
+  }
+  .forms .titlePhrase {
+    top: 50px;
+  }
+  .forms .titlePhrase h2 {
+    font-size: 1.5rem;
+  }
+  .phrase {
+    font-size: 13px;
+  }
+  .form-control:nth-child(4) {
+    padding: 30px 0;
+  }
+  .form-control.footer{
+    bottom: 80px;
+  }
 }
 @media screen and (max-width: 768px) {
 }
 @media screen and (min-width: 768px) {
-    .forms {
-        display: flex;
-        width: 90%;
-        height: 600px;
-      }
-      #formCadastro,
-      #formLogin {
-        width: 50%;
-      }
-      #formCadastro{
-        background: linear-gradient(45%, #dfe3ee9d, #cfd8e333);
-    }
-    #formLogin{
-        background: linear-gradient(45%, #1c1c1cbb, #33333352);
-    }
+  .forms {
+    display: flex;
+    width: 90%;
+    height: 500px;
+  }
+  #formCadastro,
+  #formLogin {
+    width: 50%;
+  }
+  #formCadastro {
+    background: linear-gradient(90%, #dfe3ee9d, #cfd8e333);
+  }
+  #formLogin {
+    background: linear-gradient(90%, #1c1c1cbb, #33333352);
+  }
 }
 @media screen and (max-width: 992px) {
 }

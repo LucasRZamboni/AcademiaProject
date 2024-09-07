@@ -9,8 +9,13 @@
   </head>
   <body>
     <div class="container">
+      <div class="alerta" id="alertContainer">
+        <button class="close" id="fechar">X</button>
+        <div class="message" id="alertMessage">
+        </div>
+    </div>
       <div class="forms">
-        <form action="" id="formCadastro">
+        <form id="formCadastro">
           <div class="titlePhrase">
             <h2>Novo(a) por aqui? Cadastre-se!</h2>
             <p class="phrase">
@@ -49,13 +54,6 @@
             <button id="withGoogle">
               <img src="IMG/others/google.png" alt="cadastrar com google" />
               Google
-            </button>
-            <button id="withMicrosoft">
-              <img
-                src="IMG/others/microsoft.png"
-                alt="cadastrar com microsoft"
-              />
-              Microsoft
             </button>
           </div>
         </form>
@@ -101,10 +99,6 @@
               <img src="IMG/others/google.png" alt="login com google" />
               Google
             </button>
-            <button id="withMicrosoft">
-              <img src="IMG/others/microsoft.png" alt="login com microsoft" />
-              Microsoft
-            </button>
           </div>
         </form>
       </div>
@@ -118,5 +112,8 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="JS/eye.js"></script>
+    <script type="module" src="JS/config/firebase.js"></script>
+    <script type="module" src="JS/config/auth/auth.js"></script>
+    <script src="JS/close.js"></script>
   </body>
 </html>
